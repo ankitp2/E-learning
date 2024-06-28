@@ -1,0 +1,293 @@
+.logo{
+    height: 40px;
+    width: 80px;
+    background-color: transparent;
+}
+.nav-container{
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:900;
+}
+.navbar-brand{
+    color: rgb(22, 173, 173);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    background-color: white;
+    height: 50px;
+}
+.navbar-nav{
+    margin-right: 10px;
+    align-items: center;
+    height: 50px;
+}
+.navbar-nav .nav-link{
+    font-weight: 600;
+    color: rgb(22, 173, 173);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+.footer{
+    background-color: black ;
+    padding-top: 10px;
+    color: white;
+    font-family:monospace;
+}
+.copyright{
+    text-align: right;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.footer .col-md-4  a
+{
+    text-decoration: none;
+    color: white;
+}
+.signup-container{
+    height: 550px;
+
+}
+.image1{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin-left: 300px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+.heading1{
+    margin-left: 550px;
+    margin-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.base-container2,.base-container3{
+    background-color: antiquewhite;
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.base-container2 input,.base-container3 input{
+    width: 300px;
+    margin-left:20px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+}
+.login, .register{
+    border: none;
+    background-color: transparent;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+.base-container3 input
+{
+    margin-top: 30px;
+}
+.base-container,.base-container0{
+    display: flex;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+.admin-nav a{
+    color: rgb(22, 173, 173);
+    font-size: 20px;
+    font-weight: 600;
+}
+.h3{
+    color: gray;
+    font-style: italic;
+    font-size: 15px;
+}
+.courses-container{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    background-color: brown;
+    align-items: center;
+    margin-left: 300px;
+}
+.courses-container input{
+    width: 350px;
+    margin: 15px;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 15px;
+    text-align: center;
+}
+.lesson-container{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    background-color: rgb(214, 158, 36);
+    align-items: center;
+    margin-left: 300px;
+    border-radius: 15px;
+}
+.lesson-container input,select {
+    width: 350px;
+    margin: 15px;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.quiz-container{
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    background-color: rgb(214, 158, 36);
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.quiz-container select{
+    width: 350px;
+    margin: 10px;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.option{
+    width: 100px;
+}
+.quiz-container input
+{
+    margin: 10px;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.course-container{
+    height: auto;
+    padding: 20px;
+    background-color: blanchedalmond;
+    padding-bottom: 130px;
+    display: grid;
+    gap: 10px;
+}
+.black{
+    background-color: green;
+    width: 100%;
+    /* height: 60px; */
+}
+.course{
+    text-decoration: none;
+    color: black;
+}
+.black span{
+    color: white;
+    font-size: 25px;
+    margin-left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.course-profile{
+    padding-bottom: 130px;
+}
+.main img{
+    float: right;
+    margin: 30px;
+    margin-top: 60px;
+    width: 500px;
+}
+.main{
+    height:auto;
+    display: flex;
+    gap: 100px;
+
+}
+.main1 p{
+    font-size:45px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+    width: 550px;
+    margin-left: 30px;
+}
+.main1 span{
+    color: white;
+    width: 600px;
+    margin-left: 20px;
+}
+.main1{
+    padding-left: 20px;
+}
+#purchase{
+    width: 250px;
+    height: 50px;
+    background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(148, 98, 5);
+    border-radius: 10px;
+    padding: 10px;
+}
+.inner-main{
+    padding: 20px;
+}
+.inner-main h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.inner-main span{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(60, 9, 245);
+}
+.video-container{
+    padding: 100px;
+}
+.video-container video{
+    margin-left: 150px;
+}
+.showquiz-container{
+    padding:20px;
+    padding-bottom: 120px;
+}
+.showquiz-container p{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 18px;
+}
+.showresult-container{
+    padding: 100px;
+    padding-left: 350px;
+}
+.inner{
+    padding: 10px;
+    background-color: rgb(236, 197, 197);
+    width:fit-content;
+    border-radius: 10px;
+}
+.inner h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:dashed;
+    background-color: skyblue;
+    width: 500px;
+    padding: 5px;
+}
+.inner p,.inner span{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    
+}
